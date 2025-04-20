@@ -2,8 +2,8 @@ require('dotenv').config();
 const { app, listApiRoutes } = require('./app');
 const { connectDB } = require('../config/database/database');
 
-const PORT = process.env.PORT || 3005; // Puerto exclusivo para la API
-const APP_NAME = process.env.APP_NAME || 'TrebolDrinks API';
+const PORT = process.env.PORT || 3005;
+const APP_NAME = process.env.APP_NAME || 'Base Service API';
 
 (async () => {
 try {

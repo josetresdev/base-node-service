@@ -21,7 +21,7 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
             }
 
             console.log('-----------------------------------------------------');
-            console.log(`🚀☘️ ${APP_NAME} está en marcha! 🍾🎉`);
+            console.log(`🚀 ${APP_NAME} está en marcha! 🎉`);
             console.log(`🌍 Producción: ${APP_URL}`);
             console.log(`🏠 Local:      http://localhost:${PORT}`);
             console.log(`🛠️ Entorno:    ${NODE_ENV}`);
